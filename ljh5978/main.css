@@ -1,0 +1,209 @@
+body {
+	margin: 0;
+	padding : 0;
+	background-color: #a5c485;
+	/*opacity: 0.5;*/
+}
+
+a{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+/*a:visited {
+	color: black;
+}*/
+a:hover {
+	color: #a5c485;
+}
+
+
+#page {
+	max-width : 1200px;
+	margin: 30px auto;
+	padding: 0 auto;
+	background-color: #fff;
+	/*background-color: #ffa100;*/
+	border : 5px solid gray;
+	overflow: hidden;
+	text-align: center;
+	/*opacity: 0.8;*/
+	/*z-index: 1;*/
+}
+/****************
+ * nav part
+ ****************/
+
+nav {
+	border-top: 3px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+nav li{
+	display: inline;
+	font-weight: bold;
+	color: #A690AF;
+	padding-left:1.5em;
+	padding-right:1.5em;
+}
+
+/****************
+ * section part
+ ****************/
+section {
+	overflow: hidden;
+	/*opacity: 1;*/
+	/*z-index: 2;*/
+}
+section * {
+	max-width : 1200px;
+	margin: 0;
+	padding: 0;
+}
+
+section div{
+	float: left;
+	margin: 3% 0 3% 2%;
+	padding: 0;
+	width: 30%;
+	max-width: 500px;
+	height: 300px;
+	border: 4px solid black;
+	border-bottom: 4px solid gray;
+	border-right: 4px solid gray;
+	text-align: center;
+	overflow: hidden;
+	background-color: #fff;
+
+}
+
+div img {
+	width: 100%;
+	max-width: 400px;
+	/*opacity: 0.7;*/
+}
+
+section h1 {
+	margin-top: 5px;
+	height: 10%;
+	font-size: 100%;
+}
+
+section h2 {
+	font-size: 80%;
+	margin : 5px 0;
+	padding: 5px 20px;
+	height: 30px;
+	border-bottom: 2px solid gray;
+}
+/****************
+ * page_num
+ ****************/
+#page_num ul {
+	margin: 20px 20px;
+}
+#page_num li{
+	display: inline;
+ 	list-style: none;
+ 	font-weight: bold;
+}
+
+li.pages {
+ 	color: gray;
+}
+
+li.selected, li.selected a {
+	color: red;
+}
+/*******************************************************************/
+.login{
+  position: absolute;
+  left: 1000px;
+	width: 15%;
+	float: right;
+	line-height:20px;
+  margin-top: 15px;
+}
+#login {
+	background-color: #9ACD32;
+	padding: 5px 15px;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	cursor: pointer;
+}
+#login:hover {
+    background-color: #A9DFBF; /* Green */
+    color: white;
+}
+
+#spr {
+	font-family: Serif;
+	background-color: #FD81C7;
+	font-size: 20px;
+	padding: 8px 15px;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#spr:hover {
+    background-color: #F7AAD6; /* Green */
+    color: white;
+}
+
+#sum {
+	font-family: Serif;
+	background-color: red;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	font-size: 20px;
+	padding: 8px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#sum:hover {
+    background-color: #FFA07A	; /* Green */
+    color: white;
+}
+#aut {
+	font-family: Serif;
+	background-color: #F39C12;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	font-size: 20px;
+	padding: 8px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#aut:hover {
+    background-color: #FAD7A0; /* Green */
+    color: white;
+}
+#win {
+	font-family: Serif;
+	background-color: #85C1E9;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	font-size: 20px;
+	padding: 8px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#win:hover {
+    background-color: #AED6F1; /* Green */
+    color: white;
+}

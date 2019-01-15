@@ -1,0 +1,10 @@
+bcrypt 
+
+    암호화:  $hash = password_hash($password, PASSWORD_DEFAULT); 
+                여기서 반환하는 $hash 값을 DB에 저장해 두었다가 아래에서 확인하는 데 씁니다. 
+
+    확인:      if (password_verify($password, $hash)) { 
+                    // 비밀번호가 맞음 
+                } else { 
+                    // 비밀번호가 틀림 
+                } 

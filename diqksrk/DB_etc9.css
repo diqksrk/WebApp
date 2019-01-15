@@ -1,0 +1,21 @@
+#DB_etc9{margin-left:5px;position:relative;width:22%;height:50%;border:1px solid #ffffff;background: url('img/map_bg.gif') -100px -110px no-repeat; position:fixed;
+border: 4px solid black;border-bottom: 4px solid gray;border-right: 4px solid gray;margin-top: 2%;padding-bottom: 4%;}
+#DB_mapBg{width:50%;height:78%;margin:40px 0 0 80px;background:url('img/map.gif') no-repeat;}
+
+#DB_mapBg.gangwon-do{background-position:-300px 0}/*강원*/
+#DB_mapBg.gyeonggi-do{background-position:-600px 0}/*경기*/
+#DB_mapBg.gyeongsangnam-do{background-position:-900px 0}/*경남*/
+#DB_mapBg.gyeongsangbuk-do{background-position:0 -300px}/*경북*/
+#DB_mapBg.gwangju-si{background-position:-300px -300px}/*광주*/
+#DB_mapBg.daegu-si{background-position:-600px -300px}/*대구*/
+#DB_mapBg.daejeon-si{background-position:-900px -300px}/*대전*/
+#DB_mapBg.busan-si{background-position:0 -600px}/*부산*/
+#DB_mapBg.seoul-si{background-position:-300px -600px}/*서울*/
+#DB_mapBg.sejong-si{background-position:-600px -600px}/*세종*/
+#DB_mapBg.ulsan-si{background-position:-900px -600px}/*울산*/
+#DB_mapBg.incheon-si{background-position:0px -900px}/*인천*/
+#DB_mapBg.jeollanam-do{background-position:-300px -900px}/*전남*/
+#DB_mapBg.jeollabuk-do{background-position:-600px -900px}/*전북*/
+#DB_mapBg.jeju-do{background-position:-900px -900px}/*제주*/
+#DB_mapBg.chungchengnam-do{background-position:0px -1200px}/*충남*/
+#DB_mapBg.chungchengbuk-do{background-position:-300px -1200px}/*충북*/
